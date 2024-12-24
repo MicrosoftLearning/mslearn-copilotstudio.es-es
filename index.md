@@ -4,22 +4,9 @@ permalink: index.html
 layout: home
 ---
 
-# Directorio de contenido
+# Ejercicios de Copilot Studio
 
-A continuación se enumeran hipervínculos a cada uno de los ejercicios de laboratorio y demostraciones.
+A continuación se enumeran los vínculos a los ejercicios de Copilot Studio de Microsoft Learn.
 
-## Laboratorios
-
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Módulo | Laboratorio |
-| --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
-
-## Demostraciones
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Módulo | Demostración |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
+{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %} {% for activity in labs  %}
+- [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) {% endfor %}
