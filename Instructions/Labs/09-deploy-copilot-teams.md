@@ -73,7 +73,7 @@ Con el copiloto publicado, puedes hacer que esté disponible para los usuarios d
 
 1. Selecciona la flecha hacia atrás de la parte superior izquierda del panel.
 
-1. Seleccione **Compartir**.
+1. Selecciona **Compartir**.
 
 ### Tarea 2.2: Microsoft Teams
 

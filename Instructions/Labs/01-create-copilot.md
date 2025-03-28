@@ -1,11 +1,11 @@
 ---
 lab:
-  title: Creación de un copiloto con Copilot Studio.
+  title: Creación de un agente con Copilot Studio
 ---
 
-# Creación de un copiloto con Copilot Studio.
+# Creación de un agente con Copilot Studio
 
-En este ejercicio, usarás Copilot Studio para crear un Copilot sencillo que pueda responder a preguntas de los empleados sobre las directivas de gastos de una empresa ficticia.
+En este ejercicio, usarás Copilot Studio para crear un agente sencillo que pueda responder a preguntas de los empleados sobre las directivas de gastos de una empresa ficticia.
 
 Este ejercicio tardará aproximadamente **45** minutos en completarse.
 
@@ -13,7 +13,7 @@ Este ejercicio tardará aproximadamente **45** minutos en completarse.
 
 ## Creación de un copiloto
 
-Comencemos con Copilot Studio para crear un nuevo Copilot. El Copilot tendrá inicialmente funcionalidades muy limitadas, que se extenderán más adelante en el ejercicio.
+Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inicialmente funcionalidades muy limitadas, que se extenderán más adelante en el ejercicio.
 
 1. En un explorador web, ve a [Copilot Studio](https://copilotstudio.microsoft.com/) en `https://copilotstudio.microsoft.com/` e inicia sesión con tu cuenta profesional o educativa si se te solicita. Omite los mensajes de bienvenida.
 
@@ -37,7 +37,7 @@ Comencemos con Copilot Studio para crear un nuevo Copilot. El Copilot tendrá in
 
     >**Sugerencia**: Puedes usar la opción **Omitir para configurar** para omitir la experiencia de creación de agentes basada en chat. En este ejercicio, usaremos la interfaz de chat.
 
-1. Escriba lo siguiente:
+1. Escribe la siguiente indicación:
 
     ```prompt
     Create an agent to help employees with expense claims.
