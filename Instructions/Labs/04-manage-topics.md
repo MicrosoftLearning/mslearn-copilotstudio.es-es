@@ -41,7 +41,7 @@ En este ejercicio, quitarás los temas de un Copilot.
 
 1. Selecciona el botón **Probar** en la parte superior derecha de la pantalla para cerrar el panel de pruebas si el panel está abierto.
 
-1. Selecciona **Copilotos** en el panel de navegación izquierdo.
+1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
     ![Copilots en el portal de Copilot Studio.](../media/copilot-studio-copilots.png)
 

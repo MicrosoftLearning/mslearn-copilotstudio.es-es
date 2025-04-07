@@ -43,7 +43,7 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
 ### Tarea 1.2: Crear un Copilot
 
-1. Selecciona **Crear** en el panel de navegación izquierdo y seleccionael icono **Nuevo agente**.
+1. Selecciona **Crear** en el panel de navegación izquierdo y selecciona el icono **Nuevo agente** y **Omitir configuración** en la parte superior derecha.
 
     ![Crear en el portal de Copilot Studio.](../media/create-copilot-agent.png)
 

@@ -45,7 +45,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
     ![Captura de pantalla del paso 1 de agregar una acción.](../media/add-action-step-1.png)
 
-1. Selecciona el filtro **Flujo** y, a continuación, selecciona **Crear un nuevo flujo**.
+1. Selecciona el filtro **Flujo** y después **Ejecutar un flujo con Power Automate para escritorio**.
 
 1. Inicia sesión en Power Automate si se te solicita.
 
