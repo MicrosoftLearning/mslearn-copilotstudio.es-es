@@ -1,37 +1,37 @@
 ---
 lab:
-  title: Crear un copiloto inicial
-  module: Build an initial copilot with Microsoft Copilot Studio
+  title: Desarrollo de un agente inicial
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
-# Crear un copiloto inicial
+# Desarrollo de un agente inicial
 
 ## Escenario
 
 En este laboratorio, aprenderás a:
 
-- Crear y asignar un nombre a un Copilot
-- Agregar una descripción de lo que el Copilot debe hacer
+- Crear y asignar un nombre a un agente
+- Agregar una descripción de lo que el agente debe hacer
 - Configurar respuestas de IA generativa
 
 ## Aprendizaje
 
-- Crear un Copilot con lenguaje natural
-- Configuración de respuestas de IA generativa para un Copilot
+- Creación de un agente con lenguaje natural
+- Configuración de respuestas de IA generativa para un agente
 
 ## Pasos de alto nivel del laboratorio
 
-- Crear un copiloto nuevo
-- Dile a tu Copilot cuál es su propósito principal y cómo debe actuar
+- Crear un agente nuevo
+- Dile al agente cuál es su propósito principal y cómo debe actuar
 - Agregar instrucciones de IA generativa
   
 ## Requisitos previos
 
-- Debe haber completado **Laboratorio: Importación de la solución Dataverse**
+- Debes haber completado **Laboratorio: Importación de la solución Dataverse**
 
-## Ejercicio 1: Creación de Copilot
+## Ejercicio 1: Creación de un agente
 
-En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno para desarrolladores y crearás un nuevo Copilot.
+En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno para desarrolladores y crearás un nuevo agente.
 
 ### Tarea 1.1: Portal de Microsoft Copilot Studio
 
@@ -41,7 +41,7 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
 1. Asegúrate de que estás en el entorno adecuado.
 
-### Tarea 1.2: Crear un Copilot
+### Tarea 1.2: Crear un agente
 
 1. Selecciona **Crear** en el panel de navegación izquierdo y selecciona el icono **Nuevo agente** y **Omitir configuración** en la parte superior derecha.
 
@@ -51,7 +51,7 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
 1. En el cuadro de texto **Descripción**, escribe **`Create bookings for real estate properties`**.
 
-1. En el cuadro de texto **Instrucciones**, escribe **`Create a copilot for topics relating to creating bookings for real estate properties`**.
+1. En el cuadro de texto **Instrucciones**, escribe **`Create an agent for topics relating to creating bookings for real estate properties`**.
 
 1. En la parte superior, **Idioma** debe establecerse en **Inglés (en-US)**.
 
@@ -67,23 +67,23 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
     ![Configuración avanzada del portal de Copilot Studio.](../media/copilot-studio-advanced-settings.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 1. En la parte superior derecha de la pantalla, selecciona **Crear**.
 
-1. En el panel derecho **Prueba tu agente**, escribe **`How do I make a booking?`**. Visualice la respuesta.
+1. En el panel derecho **Prueba tu agente**, escribe **`How do I make a booking?`**. Visualiza la respuesta.
 
 Deja abierta esta ventana.
 
 ## Ejercicio 2: Incorporación de respuestas de IA generativa
 
-En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás conocimiento que el Copilot usará para responder preguntas mediante IA generativa.
+En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás conocimiento que el agente usará para responder preguntas mediante IA generativa.
 
 ### Tarea 2.1: Habilitar respuestas de IA generativa
 
 1. En la pestaña **Información general**, asegúrate de que **Permitir que la IA use sus propios conocimientos generales** esté establecido en **Habilitado** en la sección **Conocimiento**.
 
-    ![Conocimiento habilitados en el portal de Copilot Studio.](../media/knowledge-enabled.png)
+    ![Conocimiento habilitado en el portal de Copilot Studio.](../media/knowledge-enabled.png)
 
 ### Tarea 2.2: Agregar un origen de conocimiento
 
@@ -101,11 +101,11 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás
 
     ![Agrega un vínculo al sitio web público del portal de Copilot Studio.](../media/add-website-knowledge-source.png)
 
-1. Seleccione **Agregar**.
+1. Selecciona **Agregar**.
 
-1. Seleccione **Agregar**.
+1. Selecciona **Agregar**.
 
-1. Seleccione la pestaña **Información general**.
+1. Selecciona la pestaña **Información general**.
 
     ![Copilot personalizado del portal de Copilot Studio.](../media/copilot-studio-copilot2.png)
 

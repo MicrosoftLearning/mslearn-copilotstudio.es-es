@@ -11,7 +11,7 @@ Este ejercicio tardará aproximadamente **45** minutos en completarse.
 
 > **Nota**: este ejercicio presupone que ya tienes una licencia de Copilot Studio o que te has suscrito a una [prueba gratuita](https://go.microsoft.com/fwlink/p/?linkid=2252605).
 
-## Creación de un copiloto
+## Crear un agente
 
 Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inicialmente funcionalidades muy limitadas, que se extenderán más adelante en el ejercicio.
 
@@ -25,7 +25,7 @@ Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inic
 
     En la página principal, puedes empezar a crear un agente y ver los agentes con los que has trabajado recientemente. El entorno de **Power Apps** en el que se definen tus agentes se muestra en la parte superior de la página. También puedes ir a la página **Crear** para ver más opciones de creación de agentes y a la página **Agentes** para ver todos los agentes existentes.
 
-    > **Nota**: Además de los agentes que hayas creado, es posible que veas **Copilot para Microsoft 365**, que puedes extender con Copilot Studio.
+    > **Nota**: además de los agentes que hayas creado, es posible que veas **Copilot para Microsoft 365**, que puedes extender con Copilot Studio.
 
 1. En el panel de navegación de la izquierda, selecciona **Crear** para ver una página en la que puedes crear un nuevo agente, de la siguiente manera:
 
@@ -35,7 +35,7 @@ Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inic
 
 1. Selecciona la opción para crear un **Nuevo agente**. Copilot Studio responde al proporcionar una interfaz de chat en la que puedes describir la funcionalidad del agente que deseas compilar.
 
-    >**Sugerencia**: Puedes usar la opción **Omitir para configurar** para omitir la experiencia de creación de agentes basada en chat. En este ejercicio, usaremos la interfaz de chat.
+    >**Sugerencia**: puedes usar la opción **Omitir para configurar** para omitir la experiencia de creación de agentes basada en chat. En este ejercicio, usaremos la interfaz de chat.
 
 1. Escribe la siguiente indicación:
 
@@ -50,7 +50,7 @@ Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inic
 1. Continúa la conversación para definir el agente, que debe:
     - Tener un nombre adecuado
     - Usar un tono amable y profesional.
-    - No usar ningún sitio web accesible públicamente para obtener su información (más adelante agregarás un origen de conocimiento para tu Copilot).
+    - No usar ningún sitio web accesible públicamente para obtener la información (más adelante agregarás un origen de conocimiento para tu Copilot).
     - Evitar proporcionar consejos fiscales.
     
     Cuando hayas terminado, se muestra una vista previa de la interfaz de chat del agente junto a la conversación que se usa para crearla.
@@ -67,7 +67,7 @@ Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inic
 
     Revisa la respuesta, que debe ser un mensaje adecuado.
 
-1. Ahora prueba la siguiente solicitud:
+1. Ahora prueba la siguiente indicación:
 
     ```prompt
     Who should I contact about submitting an expense claim?
@@ -75,7 +75,7 @@ Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inic
 
     Esta vez la respuesta puede ser adecuada, pero también es probable que sea bastante genérica. En una organización real, querrás que el agente proporcione una dirección de correo electrónico o un número de teléfono para que el usuario pueda ponerse en contacto con él.
 
-1. Vamos a probar otra solicitud:
+1. Vamos a probar otra indicación:
 
     ```prompt
     What's the expense limit for a hotel stay?
@@ -120,7 +120,7 @@ Puedes usar *temas* para proporcionar respuestas explícitas a *desencadenadores
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
     ```
 
-1. Seleccione **Crear**.
+1. Selecciona **Crear**.
 
 1. Después de una breve espera, debería crearse un nuevo tema denominado *Preguntar sobre el contacto de gastos* y abrirse en el lienzo de creación, donde debería tener un aspecto similar al siguiente:
 
@@ -128,7 +128,7 @@ Puedes usar *temas* para proporcionar respuestas explícitas a *desencadenadores
 
     El nuevo tema debe desencadenarse mediante frases que pregunten sobre un contacto de gastos y respondan con un mensaje que indica al usuario que envíe un correo electrónico a la dirección adecuada.
 
-1. Usa el botón **Guardar** (arriba a la derecha) para guardar el nuevo tema en tu Copilot.
+1. Usa el botón **Guardar** (arriba a la derecha) para guardar el nuevo tema en tu agente.
 
 1. Abre el panel **Probar** y escribe la siguiente solicitud:
 
@@ -154,11 +154,11 @@ Puedes agregar temas para todas las entradas que esperas que escriba un usuario,
 
 1. En la sección **Cargar archivos**, carga el documento de la directiva de gastos que has descargado anteriormente y agrégalo al conocimiento de tu agente.
 
-    > **Nota**: Después de cargar el archivo, tendrás que esperar mientras se indexa; lo que puede tardar 10 minutos (o más). Ahora puede ser un buen momento para tomarse un café mientras revisas el documento [Directiva de gastos](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) en `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` en otra pestaña del explorador.
+    > **Nota**: después de cargar el archivo, tendrás que esperar mientras se indexa; lo que puede tardar 10 minutos (o más). Ahora puede ser un buen momento para tomarse un café mientras revisas el documento [Directiva de gastos](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) en `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` en otra pestaña del explorador.
 
 1. Cuando el archivo esté listo, consulta la página **Temas** y abre el tema del sistema **Refuerzo conversacional**. Recuerda que este tema se desencadena mediante una intención desconocida y después intenta crear una respuesta de IA generativa basada en orígenes de datos que contienen conocimiento, como el archivo que has cargado.
 
-    > **Nota**: Si no se encuentra ninguna respuesta relevante en los orígenes de conocimiento personalizados que has agregado, el tema puede usar el conocimiento inherente al modelo de lenguaje para proporcionar una respuesta más genérica. Puedes configurar el tema para restringir su búsqueda a almacenes de conocimiento específicos si deseas controlar mejor las respuestas de IA generativa que devuelve.
+    > **Nota**: si no se encuentra ninguna respuesta relevante en los orígenes de conocimiento personalizados que has agregado, el tema puede usar el conocimiento inherente al modelo de lenguaje para proporcionar una respuesta más genérica. Puedes configurar el tema para restringir su búsqueda a almacenes de conocimiento específicos si deseas controlar mejor las respuestas de IA generativa que devuelve.
 
 1. Expande el panel **Probar** y reinicia la conversación. Después, escribe la siguiente solicitud:
 
