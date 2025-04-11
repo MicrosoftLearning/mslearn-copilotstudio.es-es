@@ -14,7 +14,7 @@ En este laboratorio, aprenderás a:
 
 ## Aprendizaje
 
-- Cómo crear y usar entidades para mejorar el copiloto
+- Creación y uso de entidades para mejorar el agente
 
 ## Pasos de alto nivel del laboratorio
 
@@ -31,11 +31,11 @@ En este laboratorio, aprenderás a:
 
 Microsoft Copilot Studio usa entidades para comprender la intención del usuario. Hay muchas entidades precompiladas incluidas para la información usada habitualmente. Puedes crear entidades personalizadas para tu propósito específico.
 
-### Tarea 1.1: Visualización de entidades precompiladas
+### Tarea 1.1: Visualizar entidades precompiladas
 
 1. Ve al portal `https://copilotstudio.microsoft.com` de Microsoft Copilot Studio y asegúrate de que estás en el entorno adecuado.
 
-1. Selecciona **Copilotos** en el panel de navegación izquierdo.
+1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
 1. Selecciona el **servicio de reserva inmobiliaria** que creaste en el laboratorio anterior.
 
@@ -45,7 +45,7 @@ Microsoft Copilot Studio usa entidades para comprender la intención del usuario
 
     ![Captura de pantalla de la pestaña Entidades.](../media/system-entities.png)
 
-### Tarea 1.2: Creación de la entidad de tipo de propiedad
+### Tarea 1.2: Crear la entidad de tipo de propiedad
 
 1. Selecciona **+ Agregar una entidad** y selecciona **+ Nueva entidad**.
 
@@ -71,9 +71,9 @@ Microsoft Copilot Studio usa entidades para comprender la intención del usuario
 
     ![Captura de pantalla de la nueva entidad.](../media/add-list-entity.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
-1. Seleccione **Cerrar**.
+1. Selecciona **Cerrar**.
 
 ### Tarea 1.3: Creación de la entidad número de dormitorios
 
@@ -85,17 +85,17 @@ Microsoft Copilot Studio usa entidades para comprender la intención del usuario
 
 1. Escribe **`[1-5]`** en el campo **Patrón**.
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
-1. Seleccione **Cerrar**.
+1. Selecciona **Cerrar**.
 
-## Ejercicio 2: Uso de entidades para mejorar el copiloto
+## Ejercicio 2: Uso de entidades para mejorar el agente
 
-Usa entidades en el flujo conversacional para mejorar el copiloto.
+Usa entidades en el flujo conversacional para mejorar el agente.
 
-### Tarea 2.1: Uso de entidades
+### Tarea 2.1: Usar entidades
 
-1. Selecciona el icono **X** de la parte superior derecha para cerrar la Configuración y volver a tu copiloto.
+1. Selecciona el icono **X** de la parte superior derecha para cerrar la Configuración y volver a tu agente.
 
 1. Selecciona la pestaña **Temas**.
 

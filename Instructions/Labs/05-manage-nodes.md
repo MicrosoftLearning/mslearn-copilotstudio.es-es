@@ -10,7 +10,7 @@ lab:
 
 En este laboratorio, aprenderás a:
 
-- Creación del flujo conversacional
+- Crear el flujo conversacional
 
 ## Aprendizaje
 
@@ -33,13 +33,13 @@ Otros temas pueden acceder a las variables.
 
 ### Tarea 1.1: Configurar el ámbito de las variables
 
-1. Ve al portal `https://copilotstudio.microsoft.com` de Microsoft Copilot Studio y asegúrate de que estás en el entorno adecuado.
+1. Ve al portal de Microsoft Studio `https://studio.microsoft.com` y asegúrate de que estás en el entorno adecuado.
 
 1. Selecciona el botón **Probar** en la parte superior derecha de la pantalla para cerrar el panel de pruebas si el panel está abierto.
 
-1. Selecciona **Copilotos** en el panel de navegación izquierdo.
+1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
-1. Selecciona el Copilot que has creado en el laboratorio anterior.
+1. Selecciona el agente que has creado en el laboratorio anterior.
 
 1. Selecciona la pestaña **Temas**.
 
@@ -51,7 +51,7 @@ Otros temas pueden acceder a las variables.
 
     ![Captura de pantalla del panel de variables.](../media/variables-pane.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 ## Ejercicio 2: Creación manual de temas
 
@@ -71,7 +71,7 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
     `Hi, I can help you with booking a real estate property showing.`
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 ### Tarea 2.2: Agregar un nodo de administración de temas
 
@@ -79,7 +79,7 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
     ![Captura de pantalla de la adición de un nodo de administración de temas.](../media/topic-management-node.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 ### Tarea 2.3: Agregar condición de nodo
 
@@ -89,11 +89,11 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
 1. Selecciona **es igual a**.
 
-1. Seleccione **Sí**.
+1. Selecciona **Sí**.
 
     ![Captura de pantalla de la adición de un nodo de condición.](../media/condition-node.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 ### Tarea 2.4: Agregar nodos de preguntas
 
@@ -109,7 +109,7 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
     ![Captura de pantalla de la adición de un nodo de pregunta.](../media/question-node-2.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 1. Selecciona el icono **+** situado debajo del nuevo nodo **Pregunta** y selecciona **Hacer una pregunta**.
 
@@ -121,9 +121,9 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
 1. Selecciona la variable en **Guardar respuesta del usuario como** y escribe **`DateTime`** en **Nombre de variable**
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
-### Tarea 2.5: Probar el Copilot
+### Tarea 2.5: Probar el agente
 
 1. Si no está abierto, selecciona el botón **Prueba** en la parte superior derecha de la pantalla para abrir el panel de pruebas.
 
@@ -135,11 +135,11 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
 1. Selecciona el icono **Iniciar una nueva conversación** en la parte superior del panel de pruebas.
 
-1. Cuando aparezca el mensaje **Inicio de conversación**, el Copilot iniciará una conversación. Como respuesta, introduzca una frase desencadenadora para el tema que ha creado:
+1. Cuando aparezca el mensaje **Inicio de conversación**, el agente iniciará una conversación. Como respuesta, introduce una frase desencadenadora para el tema que has creado:
 
     `I want to book a real estate showing`
 
-1. El copiloto responde con la pregunta "What is your name?" , como se muestra en la siguiente imagen.
+1. El agente responde con la pregunta "¿Cómo te llamas?" , como se muestra en la siguiente imagen.
 
     ![Captura de pantalla del mensaje y la respuesta de Inicio de conversación.](../media/conversation-start-message.png)
 
@@ -158,7 +158,7 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
     ![Captura de pantalla de la tarjeta adaptable con la información introducida.](../media/adaptive-card-information.png)
 
-## Ejercicio 3: Implementación de Copilot
+## Ejercicio 3: Implementación del agente
 
 ### Tarea 3.1: Configurar la autenticación
 
@@ -166,19 +166,19 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
 1. Seleccione la pestaña **Seguridad** .
 
-1. Seleccione el icono **Autenticación**.
+1. Selecciona el icono **Autenticación**.
 
     ![Captura de pantalla de la configuración de autenticación.](../media/configure-authentication.png)
 
 1. Seleccione **Sin autenticación**.
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 1. Selecciona **Guardar** en la ventana de confirmación.
 
 1. Selecciona la **X** en la parte superior derecha para cerrar la **Configuración**.
 
-### Tarea 3.2: Publicar el copiloto
+### Tarea 3.2: Publicar el agente
 
 1. Selecciona **Publicar** en la parte superior derecha y después vuelve a seleccionar **Publicar**.
 
@@ -186,6 +186,6 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
 1. Selecciona los **tres puntos** junto al botón **Configuración** en la parte superior derecha de la pantalla y selecciona **Ir al sitio web de demostración**.
 
-1. En el cuadro de texto **Escriba su mensaje**, escribe **`I want to book a property`**.
+1. En el cuadro de texto **Escribir tu mensaje**, escribe **`I want to book a property`**.
 
-1. Responde a las solicitudes para probar el Copilot.
+1. Responde a las indicaciones para probar el agente.

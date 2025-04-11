@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Creación de acciones de Copilot
+  title: Creación de acciones de agente
   module: Enhance Microsoft Copilot Studio copilots
 ---
 
@@ -10,7 +10,7 @@ lab:
 
 En este laboratorio, aprenderás a:
 
-- Creación de acciones de Copilot
+- Creación de acciones de agente
 
 ## Aprendizaje
 
@@ -18,8 +18,8 @@ En este laboratorio, aprenderás a:
 
 ## Pasos de alto nivel del laboratorio
 
-- Creación de un flujo de nube de Power Automate para recuperar datos de Dataverse con una acción de copiloto
-- Creación de un flujo de nube de Power Automate para crear datos de Dataverse con una acción de copiloto
+- Creación de un flujo de nube de Power Automate para recuperar datos de Dataverse con una acción del agente
+- Creación de un flujo de nube de Power Automate para crear datos de Dataverse con una acción del agente
   
 ## Requisitos previos
 
@@ -27,19 +27,19 @@ En este laboratorio, aprenderás a:
 
 ## Pasos detallados
 
-## Ejercicio 1: Creación de una acción de Copilot para recuperar datos de Dataverse
+## Ejercicio 1: Creación de una acción del agente para recuperar datos de Dataverse
 
 Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse mediante flujos de nube de Power Automate.
 
-### Tarea 1.1: Creación de un flujo de Power Automate para recuperar una propiedad
+### Tarea 1.1: Crear un flujo de Power Automate para recuperar una propiedad
 
 1. Ve al portal `https://copilotstudio.microsoft.com` de Microsoft Copilot Studio y asegúrate de que estás en el entorno adecuado.
 
-1. Selecciona **Copilotos** en el panel de navegación izquierdo.
+1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
 1. Selecciona el **servicio de reserva inmobiliaria** que creaste en el laboratorio anterior.
 
-1. Seleccione la pestaña **Acciones**.
+1. Selecciona la pestaña **Acciones**.
 
 1. Selecciona **+ Agregar una acción**.
 
@@ -55,7 +55,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
 1. Selecciona el paso de desencadenador **Ejecutar un flujo desde Copilot** y selecciona **+ Agregar una entrada**.
 
-1. Seleccione **Texto**.
+1. Selecciona **Texto**.
 
 1. Escribe `Bedrooms` en **Entrada** y `Number of Bedrooms` para **Escribe la entrada**.
 
@@ -87,7 +87,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
 1. En el panel principal de Power Automate, selecciona la acción **Responder a Copilot** y selecciona **+ Agregar una salida**.
 
-1. Seleccione **Texto**.
+1. Selecciona **Texto**.
 
 1. Escribe `PropertyId` para **Escriba un nombre**
 
@@ -101,11 +101,11 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
     ![Captura de pantalla de la configuración de la acción de respuesta.](../media/create-flow-step5.png)
 
-1. Seleccione **Agregar**.
+1. Selecciona **Agregar**.
 
-1. Seleccione **+Agregar una salida**.
+1. Selecciona **+Agregar una salida**.
 
-1. Seleccione **Texto**.
+1. Selecciona **Texto**.
 
 1. Escribe `PropertyName` para **Escriba un nombre**.
 
@@ -117,7 +117,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
     first(outputs('List_rows')?['body/value'])['contoso_propertyname']
     ```
 
-1. Seleccione **Agregar**.
+1. Selecciona **Agregar**.
 
 1. Selecciona la pestaña **Configuración** en el panel **Responder a Copilot**.
 
@@ -129,7 +129,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
 1. Espera a que se guarde por completo y, a continuación, cierra la pestaña Power Automate.
 
-### Tarea 1.2: Adición de una acción de Copilot para recuperar una propiedad
+### Tarea 1.2: Agregar una acción del agente para recuperar una propiedad
 
 1. Selecciona **Actualizar** en el cuadro de diálogo Copilot Studio para ver el nuevo flujo.
 
@@ -137,13 +137,13 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
     ![Captura de pantalla del paso 1 de agregar una acción de flujo.](../media/add-action-flow-step-1.png)
 
-1. Seleccione **Siguiente**.
+1. Selecciona **Siguiente**.
 
-1. Seleccione **Siguiente**.
+1. Selecciona **Siguiente**.
 
-1. Seleccione **Finalizar**.
+1. Selecciona **Finalizar**.
 
-### Tarea 1.3: Adición de la acción Obtener Copilot de propiedad al tema
+### Tarea 1.3: Agregar la acción Obtener agente de propiedad al tema
 
 1. Selecciona la pestaña **Temas**.
 
@@ -161,19 +161,19 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
 1. Selecciona el icono **+** en el nodo **Acción** y selecciona **Enviar un mensaje**.
 
-1. En el campo **Escribe un mensaje**, escribe `Property ` (con un espacio después).
+1. En el campo **Escribir un mensaje**, escribe `Property ` (con un espacio después).
 
 1. En el mismo nodo, selecciona el icono **{X} (Insertar variable)** y selecciona la variable **PropertyName**.
 
     ![Captura de pantalla del paso 4 de agregar una acción de flujo.](../media/add-action-flow-step-4.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
-## Ejercicio 2: Creación de una acción de Copilot para crear datos en Dataverse
+## Ejercicio 2: Creación de una acción del agente para crear datos en Dataverse
 
 Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujos de nube de Power Automate.
 
-### Tarea 2.1: Creación de un flujo de Power Automate para realizar una reserva
+### Tarea 2.1: Crear un flujo de Power Automate para realizar una reserva
 
 1. Selecciona la pestaña **Acciones** en **Servicio de reserva inmobiliaria**.
 
@@ -185,19 +185,19 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona el paso de desencadenador **Ejecutar un flujo desde Copilot** y selecciona **+ Agregar una entrada**.
 
-1. Seleccione **Texto**.
+1. Selecciona **Texto**.
 
 1. Escribe `PropertyId` en **Entrada** y `Property` para **Escriba su entrada**.
 
-1. Seleccione **+ Agregar una entrada**.
+1. Selecciona **+ Agregar una entrada**.
 
-1. Seleccione **Texto**.
+1. Selecciona **Texto**.
 
 1. Escribe `ViewerName` para **Entrada** y `Viewer Name` en **Escriba su entrada**.
 
-1. Seleccione **+ Agregar una entrada**.
+1. Selecciona **+ Agregar una entrada**.
 
-1. Seleccione **Texto**.
+1. Selecciona **Texto**.
 
 1. Escribe `ViewerEmail` para **Entrada** y `Viewer Email` para **Escriba su entrada**.
 
@@ -213,7 +213,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Escribe `Copilot booking` en el campo **Nombre de reserva**.
 
-1. Seleccione **Mostrar todo** en **Parámetros avanzados**.
+1. Selecciona **Mostrar todo** en **Parámetros avanzados**.
 
 1. Escribe `contoso_bookingrequests()` en el campo **Propiedad (Propiedades inmobiliarias)**, mueve el cursor dentro del paréntesis, selecciona el icono de **rayo** y, a continuación, selecciona el parámetro **PropertyId**.
 
@@ -225,7 +225,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona la acción **Responder a Copilot**.
 
-1. Seleccione la pestaña **Configuración**.
+1. Selecciona la pestaña **Configuración**.
 
 1. Asegúrate de que **Respuesta asincrónica** esté establecida en **Desactivado**.
 
@@ -233,19 +233,19 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Espera a que se guarde por completo y, a continuación, cierra la pestaña Power Automate.
 
-### Tarea 2.2: Adición de una acción de Copilot para crear una solicitud de reserva
+### Tarea 2.2: Agregar una acción del agente para crear una solicitud de reserva
 
 1. Selecciona **Actualizar** en el cuadro de diálogo Copilot Studio para ver el nuevo flujo.
 
 1. Selecciona el flujo **Crear solicitud de reserva**.
 
-1. Seleccione **Siguiente**.
+1. Selecciona **Siguiente**.
 
-1. Seleccione **Siguiente**.
+1. Selecciona **Siguiente**.
 
-1. Seleccione **Finalizar**.
+1. Selecciona **Finalizar**.
 
-### Tarea 2.3: Adición de la acción de Copilot Crear solicitud de reserva al tema
+### Tarea 2.3: Agregar la acción del agente Crear solicitud de reserva al tema
 
 1. Selecciona la pestaña **Temas**.
 
@@ -261,13 +261,13 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona el icono **+** situado debajo del nuevo nodo **Acción**, selecciona **Administración de temas**, selecciona **Ir a otro tema** y selecciona **Finalizar conversación**.
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 1. Selecciona **Publicar** y vuelve a seleccionar **Publicar**.
 
-## Ejercicio 3: Prueba de las acciones de Copilot
+## Ejercicio 3: Prueba de las acciones del agente
 
-### Tarea 3.1: Realización de una solicitud de reserva
+### Tarea 3.1: Realizar una solicitud de reserva
 
 1. Selecciona el botón **Probar** en la parte superior derecha de la pantalla para abrir el panel de pruebas.
 
@@ -279,18 +279,18 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona el icono **Iniciar una nueva conversación** en la parte superior del panel de pruebas.
 
-1. Cuando aparezca el mensaje **Inicio de conversación**, el Copilot iniciará una conversación. Como respuesta, introduzca una frase desencadenadora para el tema que ha creado:
+1. Cuando aparezca el mensaje **Inicio de conversación**, el agente iniciará una conversación. Como respuesta, introduce una frase desencadenadora para el tema que ha creado:
 
     `I want to book a real estate showing`
 
-1. Escriba la siguiente información:
+1. Escribe la siguiente información:
 
     ```
     Name: <Your name>
     Email address: <Your email address>
     ```
 
-1. Después de proporcionar la información, una tarjeta adaptable muestra la información que has escrito y pregunta si los detalles son correctos. Seleccione **Sí**.
+1. Después de proporcionar la información, una tarjeta adaptable muestra la información que has escrito y pregunta si los detalles son correctos. Selecciona **Sí**.
 
 1. Selecciona **Casa** para el tipo de solicitud de propiedad.
 
@@ -306,7 +306,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona **No** en el mensaje **¿Puedo ayudar con cualquier otra cosa?**.
 
-### Tarea 3.2: Comprobación de la solicitud de reserva
+### Tarea 3.2: Comprobar la solicitud de reserva
 
 1. Si aún no está abierta, ve a `https://make.powerapps.com` en una nueva pestaña.
 

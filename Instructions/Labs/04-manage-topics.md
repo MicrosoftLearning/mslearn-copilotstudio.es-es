@@ -16,7 +16,7 @@ En este laboratorio, aprenderás a:
 
 ## Aprendizaje
 
-- Configuración de temas de Copilot
+- Configuración de temas del agente
 
 ## Pasos de alto nivel del laboratorio
 
@@ -27,13 +27,13 @@ En este laboratorio, aprenderás a:
   
 ## Requisitos previos
 
-- Debes haber completado **Laboratorio: Compilación de un Copilot inicial**
+- Debes haber completado **Laboratorio: Compilación de un agente inicial**
 
 ## Pasos detallados
 
 ## Ejercicio 1: Eliminación de temas
 
-En este ejercicio, quitarás los temas de un Copilot.
+En este ejercicio, quitarás los temas de un agente.
 
 ### Tarea 1.1: Deshabilitar temas
 
@@ -43,9 +43,9 @@ En este ejercicio, quitarás los temas de un Copilot.
 
 1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
-    ![Copilots en el portal de Copilot Studio.](../media/copilot-studio-copilots.png)
+    ![Agentes en el portal de Copilot Studio.](../media/copilot-studio-copilots.png)
 
-1. Selecciona el Copilot que has creado en el laboratorio anterior.
+1. Selecciona el agente que has creado en el laboratorio anterior.
 
 1. Selecciona la pestaña **Temas**.
 
@@ -57,7 +57,7 @@ En este ejercicio, quitarás los temas de un Copilot.
 
 ## Ejercicio 2: Creación de temas con lenguaje natural
 
-En este ejercicio, crearás temas en un Copilot y agregarás frases desencadenadenantes.
+En este ejercicio, crearás temas en un agente y agregarás frases desencadenadoras.
 
 ### Tarea 2.1: Agregar un tema mediante Copilot
 
@@ -71,9 +71,9 @@ En este ejercicio, crearás temas en un Copilot y agregarás frases desencadenad
 
 1. En el cuadro de texto **Crear un tema para...**, escribe **`Ask the customer for their name and email address.`**
 
-1. Seleccione **Crear**.
+1. Selecciona **Crear**.
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 ### Tarea 2.2: Actualizar nodos con lenguaje natural
 
@@ -85,17 +85,17 @@ En este ejercicio, crearás temas en un Copilot y agregarás frases desencadenad
 
     ![Captura de pantalla del icono Editar con Copilot.](../media/copilot-email-address-node.png)
 
-1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escriba el texto siguiente:
+1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escribe el texto siguiente:
 
     `Update the message in this Question node to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
-1. Seleccione **Actualizar**.
+1. Selecciona **Actualizar**.
 
     ![Captura de pantalla del panel Editar con Copilot con mensaje.](../media/edit-with-copilot-panel.png)
 
     ![Captura de pantalla del mensaje actualizada para incluir la variable Nombre.](../media/message-updated-name-variable.png)
 
-    > **Nota**: El mensaje debe actualizarse para incluir la variable *Nombre* del nodo anterior, y debe ser similar a la captura de pantalla anterior.
+    > **Nota**: el mensaje debe actualizarse para incluir la variable *Nombre* del nodo anterior, y debe ser similar a la captura de pantalla anterior.
 
 1. Seleccione **Guardar**.
 

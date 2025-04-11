@@ -10,11 +10,11 @@ lab:
 
 En este laboratorio, aprenderás a:
 
-- Creación de acciones de Copilot
+- Crear acciones de agente
 
 ## Aprendizaje
 
-- Cómo usar la característica de respuestas generativas para mejorar las respuestas de Copilot.
+- Cómo usar la característica de respuestas generativas para mejorar las respuestas de agente.
 
 ## Pasos de alto nivel del laboratorio
 
@@ -23,7 +23,7 @@ En este laboratorio, aprenderás a:
   
 ## Requisitos previos
 
-- Debes haber completado **Laboratorio: Creación de acciones de Copilot**
+- Debes haber completado **Laboratorio: Creación de acciones del agente**
 
 ## Pasos detallados
 
@@ -33,7 +33,7 @@ En este laboratorio, aprenderás a:
 
 1. Si aún no está abierto, ve al portal de Microsoft Copilot Studio `https://copilotstudio.microsoft.com` y asegúrate de que estás en el entorno adecuado.
 
-1. Selecciona **Copilots** en la navegación de la izquierda.
+1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
 1. Selecciona el **servicio de reserva inmobiliaria** que creaste en el laboratorio anterior.
 
@@ -41,11 +41,11 @@ En este laboratorio, aprenderás a:
 
 1. Selecciona la pestaña **AI generativa**.
 
-1. Selecciona **Generativo** en **¿Cómo debe interactuar tu Copilot con la gente?**.
+1. Selecciona **Generativo** en **¿Cómo debe interactuar tu agente con la gente?**.
 
 1. Selecciona **Media: más equilibrada** para **¿Cómo de estricta debe ser la moderación de contenido?**.
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
     ![Panel de IA generativa de la configuración de Copilot Studio](../media/settings-generative-ai-2.png)
 
@@ -63,7 +63,7 @@ En este laboratorio, aprenderás a:
 
 ### Tarea 1.3: Habilitar el conocimiento
 
-1. Seleccione la pestaña **Información general**.
+1. Selecciona la pestaña **Información general**.
 
 1. Comprueba que el conocimiento general está **habilitado**.
 
@@ -75,15 +75,15 @@ En este laboratorio, aprenderás a:
 
 1. Selecciona **Configuración** en la parte superior derecha de la pantalla.
 
-1. Seleccione la pestaña **Seguridad** .
+1. Selecciona la pestaña **Seguridad**.
 
-1. Seleccione el icono **Autenticación**.
+1. Selecciona el icono **Autenticación**.
 
 1. Selecciona **Autenticar con Microsoft**.
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 1. Cierra el menú **Configuración** al seleccionar la **X** en la parte superior derecha de Copilot Studio.
 
@@ -97,17 +97,17 @@ En este laboratorio, aprenderás a:
 
 1. Selecciona **+ Agregar conocimiento**.
 
-1. Seleccione **Dataverse**.
+1. Selecciona **Dataverse**.
 
-1. Seleccione la tabla **Propiedad inmobiliaria**.
+1. Selecciona la tabla **Propiedad inmobiliaria**.
 
     ![Captura de pantalla de la adición de conocimiento del sitio web.](../media/add-dataverse-knowedge-step1.png)
 
-1. Seleccione **Siguiente**.
+1. Selecciona **Siguiente**.
 
-1. Seleccione **Siguiente**.
+1. Selecciona **Siguiente**.
 
-1. Seleccione **Agregar**.
+1. Selecciona **Agregar**.
 
 ### Tarea 2.2: Agregar conocimientos a partir de archivos
 
@@ -121,7 +121,7 @@ En este laboratorio, aprenderás a:
 
     ![Captura de pantalla de la adición de conocimiento de archivos.](../media/add-file-knowledge.png)
 
-1. Seleccione **Agregar**.
+1. Selecciona **Agregar**.
 
     ![Captura de pantalla del conocimiento.](../media/knowledge-added.png)
 
@@ -155,11 +155,11 @@ En este laboratorio, aprenderás a:
 
     ![Captura de pantalla de la configuración de las respuestas generativas.](../media/fallback-topic-answers-knowledge-2.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona **Guardar**.
 
 ## Ejercicio 4: Prueba de IA generativa
 
-### Tarea 4.1 Prueba del conocimiento de Copilot
+### Tarea 4.1: Probar el conocimiento del agente
 
 1. Si no está abierto, selecciona el botón **Prueba** en la parte superior derecha de la pantalla para abrir el panel de pruebas.
 
@@ -171,4 +171,4 @@ En este laboratorio, aprenderás a:
 
 1. Selecciona el icono **Iniciar una nueva conversación** en la parte superior del panel de pruebas.
 
-1. Explora el Copilot y consulta cómo usa los orígenes de conocimiento.
+1. Explora el agente y consulta cómo usa los orígenes de conocimiento.
