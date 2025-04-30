@@ -33,7 +33,7 @@ Otros temas pueden acceder a las variables.
 
 ### Tarea 1.1: Configurar el ámbito de las variables
 
-1. Ve al portal de Microsoft Studio `https://copilotstudio.microsoft.com` y asegúrate de que estás en el entorno adecuado.
+1. Ve al portal de Microsoft Studio `https://studio.microsoft.com` y asegúrate de que estás en el entorno adecuado.
 
 1. Selecciona el botón **Probar** en la parte superior derecha de la pantalla para cerrar el panel de pruebas si el panel está abierto.
 
@@ -164,7 +164,7 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
 1. Selecciona **Configuración** en la parte superior derecha de **Servicio de reservas inmobiliarias**.
 
-1. Selecciona la pestaña **Seguridad**.
+1. Seleccione la pestaña **Seguridad** .
 
 1. Selecciona el icono **Autenticación**.
 
