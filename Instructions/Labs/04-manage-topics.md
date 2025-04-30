@@ -105,7 +105,7 @@ Además de agregar y actualizar nodos existentes, puedes usar Copilot para agreg
 
 1. Asegúrese de que no haya ningún nodo seleccionado al hacer clic en el espacio vacío alrededor de los nodos.
 
-1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escriba el texto siguiente:
+1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escribe el texto siguiente:
 
     `Summarize the information collected in an adaptive card`
 

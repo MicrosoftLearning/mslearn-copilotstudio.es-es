@@ -18,7 +18,7 @@ En este ejercicio, importarás una solución de Dataverse en tu entorno que cont
 
 1. En una pestaña nueva del explorador, ve a `https://make.powerapps.com`.
 
-1. Si se te solicitan credenciales, inicis sesión con tu dirección de correo electrónico y la contraseña si se te solicita.
+1. Si se te solicitan credenciales, inicia sesión con tu dirección de correo electrónico y la contraseña.
 
 1. Si se te solicita información de contacto, establece el país o la región y selecciona **Introducción**.
 
@@ -96,6 +96,6 @@ En este ejercicio, importarás una solución de Dataverse en tu entorno que cont
     - **Dormitorios:**`4`
     - **Baños:**`3`
 
-    ![Información general.](../media/add-record.png)
+    ![Información general.](../media/add-record2.png)
 
 1. Selecciona **Guardar y cerrar.**

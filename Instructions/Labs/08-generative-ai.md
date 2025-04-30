@@ -112,6 +112,7 @@ En este laboratorio, aprenderás a:
 ### Tarea 2.2: Agregar conocimientos a partir de archivos
 
 1. Descarga este [**Caso práctico de Microsoft**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) o [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) de GitHub.
+> ℹ️**NOTA:** el vínculo al caso práctico de Microsoft está aquí: `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
 1. Selecciona **+ Agregar conocimiento**.
 

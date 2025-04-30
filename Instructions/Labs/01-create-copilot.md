@@ -29,7 +29,7 @@ Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inic
 
 1. En el panel de navegación de la izquierda, selecciona **Crear** para ver una página en la que puedes crear un nuevo agente, de la siguiente manera:
 
-    ![Captura de pantalla de la página Crear de Copilot Studio.](media/create-copilot.png)
+    ![Captura de pantalla de la página Crear de Copilot Studio.](media/create-copilot-agent.png)
 
     Puedes crear un agente completamente nuevo o empezar con una plantilla. En este ejercicio, crearás un nuevo agente.
 
@@ -114,13 +114,15 @@ Puedes usar *temas* para proporcionar respuestas explícitas a *desencadenadores
     - **Reserva**: este tema es un tema "para notificaciones de error" que responde cuando se desconoce la intención y no se puede generar una respuesta de IA conversacional adecuada. El tema alternativo usa la lógica para permitir que el usuario vuelva a intentarlo hasta tres veces antes de finalizar con gracia la conversación, a menudo dirigiéndolo a un operador humano.
 1. Vuelve a la página **Temas**, y en el menú **+ Agregar un tema**, selecciona **Tema**\>**Crear a partir de la descripción con Copilot**.
 
-1. En el cuadro de diálogo **Crear una descripción con Copilot**, asigna el nombre `Ask about expenses contact` al nuevo tema y escribe el siguiente texto para indicar a Copilot lo que debe hacer el tema:
+1. En el cuadro de diálogo **Crear a partir de la descripción con Copilot**, asigna el nombre `Ask about expenses contact` al nuevo tema y escribe el siguiente texto para indicar a Copilot lo que debe hacer el tema:
 
     ```prompt
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
     ```
 
-1. Selecciona **Crear**.
+1. Seleccione **Crear**.
+
+1. Si se te solicita, selecciona **Permitir** para **ver texto e imágenes copiados en el Portapapeles**.
 
 1. Después de una breve espera, debería crearse un nuevo tema denominado *Preguntar sobre el contacto de gastos* y abrirse en el lienzo de creación, donde debería tener un aspecto similar al siguiente:
 
@@ -180,9 +182,9 @@ Ahora que tienes un agente de trabajo, puedes publicarlo para que los usuarios l
 
 1. Oculta el panel **Probar el agente**. Después, en la parte superior de la página, selecciona la pestaña **Canales** y revisa los canales en los que puedes implementar tu agente. Los canales disponibles dependen de la configuración de autenticación del agente.
 1. Al principio de la página, seleccione **Configuración**.
-1. En el panel **Configuración**, en la página **Seguridad**, selecciona **Autenticación**. Después selecciona la opción de **Sin autenticación** y **guarda** los cambios en la configuración ( lo que confirma que deseas habilitar el acceso al agente a cualquier persona).
+1. En el panel **Configuración**, en la página **Seguridad**, selecciona **Autenticación**. Después, selecciona la opción **Sin autenticación** y haz clic en **Guardar** para guardar los cambios en la configuración (lo que confirma que deseas habilitar el acceso al agente a cualquier persona).
 1. Cierra el panel **Configuración**. Después, visualiza la página **Canales**.
-1. En la parte superior de la página, selecciona **Publicar**. Después, en la página **Publicar**, selecciona **Publicar**, y publica tu agente. La publicación tardará un minuto más o menos.
+1. En la parte superior de la página, selecciona **Publicar**. Luego, en la página **Publicar**, selecciona **Publicar**. La publicación tardará un minuto más o menos.
 1. Una vez publicado tu agente, comprueba el **Estado de publicación** en la página **Canales**.
 
     ![Captura de pantalla de la página Canales de Copilot Studio.](media/channels-page.png)
