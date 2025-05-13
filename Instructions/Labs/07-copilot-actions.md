@@ -43,13 +43,15 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
 1. Selecciona **+ Agregar una acción**.
 
+1. Selecciona los **puntos suspensivos (...)** y selecciona **Flujo**.
+
     ![Captura de pantalla del paso 1 de agregar una acción.](../media/add-action-step-1.png)
 
-1. Selecciona el filtro **Flujo** y después **Ejecutar un flujo con Power Automate para escritorio**.
+1. Selecciona **Nueva acción** y selecciona **Nuevo flujo de Power Automate**.
 
 1. Selecciona **Ejecutar un flujo desde Copilot** en la parte superior izquierda de la pantalla y escribe `Get Property` como nombre del flujo.
 
-1. Selecciona el paso de desencadenador **Ejecutar un flujo desde Copilot** y selecciona **+ Agregar una entrada**.
+1. Selecciona el paso del desencadenador **Cuando un agente llama al flujo** y selecciona **+ Agregar una entrada**.
 
 1. Selecciona **Texto**.
 
@@ -57,7 +59,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
     ![Captura de pantalla de las propiedades del desencadenador del flujo.](../media/create-flow-step2.png)
 
-1. Selecciona el icono **+** entre los dos pasos del flujo y selecciona **Agregar una acción**.
+1. Selecciona el icono **+** entre los dos pasos del flujo para agregar una nueva acción.
 
 1. Escribe `Dataverse` en el campo **Buscar** y selecciona **Ver más** para el conector de **Microsoft Dataverse**.
 
@@ -121,7 +123,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
     ![Captura de pantalla de la configuración de la acción de respuesta.](../media/create-flow-step6.png)
 
-1. Selecciona **Guardar** junto a la parte superior derecha de la página.
+1. Selecciona **Guardar borrador** junto a la parte superior derecha de la página.
 
 1. Espera a que se guarde por completo, selecciona **Publicar** y, a continuación, cierra la pestaña Power Automate cuando se haya completado la publicación.
 
@@ -129,15 +131,25 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
 1. Selecciona **Actualizar** en el cuadro de diálogo Copilot Studio para ver el nuevo flujo.
 
-1. Selecciona el flujo **Obtener propiedad**.
-
     ![Captura de pantalla del paso 1 de agregar una acción de flujo.](../media/add-action-flow-step-1.png)
 
-1. Selecciona **Siguiente**.
+1. Selecciona el flujo **Obtener propiedad**.
 
-1. Selecciona **Siguiente**.
+1. Expande **Entradas y salidas**
 
-1. Selecciona **Finalizar**.
+    ![Captura de pantalla de la adición de salidas a una acción de flujo.](../media/add-action-flow-step-1a.png)
+
+1. Selecciona **+ Agregar** en **Salidas**.
+
+1. Selecciona **PropertyId**.
+
+1. Selecciona **+ Agregar** en **Salidas**.
+
+1. Selecciona **PropertyName**.
+
+    ![Captura de pantalla de salidas agregadas a una acción de flujo.](../media/add-action-flow-step-1b.png)
+
+1. Seleccione **Agregar acción**.
 
 ### Tarea 1.3: Agregar la acción Obtener agente de propiedad al tema
 
@@ -153,7 +165,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
     ![Captura de pantalla del paso 3 de agregar una acción de flujo.](../media/add-action-flow-step-3.png)
 
-1. Selecciona los **tres puntos** en el nodo **¿Qué propiedad desea ver?** y selecciona **Eliminar**.
+1. Selecciona los **tres puntos** en el nodo de pregunta **¿Qué propiedad desea ver?** y selecciona **Eliminar**.
 
 1. Selecciona el icono **+** en el nodo **Acción** y selecciona **Enviar un mensaje**.
 
@@ -175,7 +187,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona **+ Agregar una acción**.
 
-1. Desplázate hacia abajo y selecciona **+ Nueva acción** y, después, **Nuevo flujo de Power Automate**.
+1. Selecciona **+ Nueva acción** y despues **Nuevo flujo de Power Automate**.
 
 1. Selecciona **Ejecutar un flujo desde Copilot** en la parte superior izquierda de la pantalla y escribe `Create Booking Request` como nombre del flujo.
 
@@ -199,7 +211,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
     ![Captura de pantalla de la configuración de la acción parámetros de flujo.](../media/create-flow2-step1.png)
 
-1. Selecciona el icono **+** entre los dos pasos del flujo y selecciona **Agregar una acción**.
+1. Selecciona el icono **+** entre los dos pasos del flujo para agregar una nueva acción.
 
 1. Escribe `Dataverse` en el campo **Buscar** y selecciona **Ver más** para el conector de **Microsoft Dataverse**.
 
@@ -211,7 +223,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona **Mostrar todo** en **Parámetros avanzados**.
 
-1. Escribe `contoso_bookingrequests(PropertyId)` en el campo **Propiedad (Propiedades inmobiliarias)**, mueve el cursor dentro del paréntesis, selecciona el icono de **rayo** y, a continuación, selecciona el parámetro **PropertyId**.
+1. Escribe `contoso_bookingrequests()` en el campo **Propiedad (Propiedades inmobiliarias)**, mueve el cursor dentro del paréntesis, selecciona el icono de **rayo** y, a continuación, selecciona el parámetro **PropertyId**.
 
 1. Selecciona el campo **Correo electrónico del visor**, selecciona el icono de **rayo** y, a continuación, selecciona el parámetro **ViewerEmail**.
 
@@ -225,7 +237,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Asegúrate de que **Respuesta asincrónica** esté establecida en **Desactivado**.
 
-1. Selecciona **Guardar** en la parte superior derecha de la ventana.
+1. Selecciona **Guardar borrador** en la parte superior derecha de la ventana.
 
 1. Espera a que se guarde por completo, selecciona **Publicar** y, a continuación, cierra la pestaña Power Automate.
 
@@ -235,11 +247,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona el flujo **Crear solicitud de reserva**.
 
-1. Selecciona **Siguiente**.
-
-1. Selecciona **Siguiente**.
-
-1. Selecciona **Finalizar**.
+1. Seleccione **Agregar acción**.
 
 ### Tarea 2.3: Agregar la acción del agente Crear solicitud de reserva al tema
 
