@@ -10,7 +10,7 @@ lab:
 
 En este laboratorio, aprenderás a:
 
-- Creación de acciones de agente
+- Crear acciones de agente
 
 ## Aprendizaje
 
@@ -38,9 +38,6 @@ En este laboratorio, aprenderás a:
 1. Selecciona el agente que has creado en el laboratorio anterior.
 
 1. Selecciona **Publicar** y vuelve a seleccionar **Publicar**.
-
-   ![Captura de pantalla del diálogo de publicación.](../media/copilot-publish.png)
-
    > **Nota:** la publicación puede tardar unos minutos.
 
 ## Ejercicio 2: Canales
@@ -51,21 +48,15 @@ Con tu agente publicado, puedes hacer que tu agente esté disponible para los us
 
 1. Con tu agente abierto en Microsoft Copilot Studio, selecciona la pestaña **Canales**.
 
-    ![Captura de pantalla de la pestaña de canales.](../media/channels.png)
+1. Selecciona el icono de **Teams y Microsoft 365 Copilot**.
 
-1. Selecciona el icono **Microsoft Teams**.
-
-    ![Captura de pantalla del diálogo de Teams.](../media/teams-enable.png)
-
-1. Selecciona **Activar Teams**.
-
-    ![Captura de pantalla del diálogo de canales de Teams.](../media/teams-channel.png)
+1. Selecciona **Agregar canal**.
 
 1. Selecciona **Opciones de disponibilidad**.
 
     ![Captura de pantalla de las opciones de disponibilidad del canal de Teams.](../media/teams-availability-options.png)
 
-1. Selecciona **Copiar vínculo**.
+1. Seleccione **Copiar vínculo**.
 
 1. Selecciona **Mostrar a mis compañeros de equipo y usuarios compartidos**.
 
@@ -73,19 +64,7 @@ Con tu agente publicado, puedes hacer que tu agente esté disponible para los us
 
 1. Selecciona la flecha hacia atrás de la parte superior izquierda del panel.
 
-1. Selecciona **Compartir**.
-
-### Tarea 2.2: Microsoft Teams
-
-1. Ve a Microsoft Teams `https://teams.microsoft.com`en una nueva pestaña.
-
-1. Inicia sesión en Teams si se te solicita.
-
-1. Selecciona **Teams** en la barra de navegación de la izquierda.
-
-1. Verás un equipo denominado **Contoso** con un canal **General**.
-
-1. Abre una nueva pestaña y ve al vínculo URL que has copiado en la tarea anterior.
+1. Selecciona **Ver agente en Teams**
 
 1. Selecciona **Cancelar** en el cuadro de diálogo de **Este sitio está intentando abrir Microsoft Teams**.
 
