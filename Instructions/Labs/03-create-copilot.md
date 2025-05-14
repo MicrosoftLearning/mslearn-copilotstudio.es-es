@@ -43,9 +43,7 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
 ### Tarea 1.2: Crear un agente
 
-1. Selecciona **Crear** en el panel de navegación izquierdo y selecciona el icono **Nuevo agente** y **Omitir configuración** en la parte superior derecha.
-
-    ![Crear en el portal de Copilot Studio.](../media/create-copilot-agent.png)
+1. Selecciona **Crear** en el panel de navegación izquierdo y selecciona el **+ Nuevo agente** y **Omitir para configurar** en la parte superior derecha.
 
 1. En el cuadro de texto **Nombre**, escribe **`Real Estate Booking Service`**.
 
@@ -93,8 +91,6 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás
 
 1. Selecciona **+ Agregar conocimiento**.
 
-    ![Orígenes de conocimiento del portal de Copilot Studio.](../media/knowledge-sources.png)
-
 1. Selecciona **Sitios web públicos**
 
 1. En el cuadro de texto **Vínculo al sitio web público**, escribe **`https://create.microsoft.com/en-us/`**.
@@ -107,18 +103,16 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás
 
 1. Selecciona la pestaña **Información general**.
 
-    ![Copilot personalizado del portal de Copilot Studio.](../media/copilot-studio-copilot2.png)
-
 1. Selecciona los **tres puntos** en la parte superior del panel **Probar el agente**.
 
 1. Habilita **Seguimiento entre temas**.
 
     ![Captura de pantalla de las opciones del panel Pruebas.](../media/test-pane-options.png)
 
-1. En la parte superior del panel **Probar el agente**, selecciona el icono **Iniciar una nueva conversación** (icono de actualización) junto a la **X**.
+1. En la parte superior del panel **Probar el agente**, selecciona el icono **Iniciar una nueva conversación** (icono de actualización).
 
     ![Captura de pantalla de las opciones del panel Pruebas.](../media/copilot-test-pane-start-new-conversation.png)
 
-1. En el cuadro de texto **Escriba su mensaje**, escribe **`How do I boost real estate promotion?`**.
+1. En el cuadro de texto **Formular preguntas o describir lo que necesita**, escribe **`How do I boost real estate promotion?`**.
 
     ![Captura de pantalla de los resultados del panel Pruebas.](../media/test-pane-results.png)

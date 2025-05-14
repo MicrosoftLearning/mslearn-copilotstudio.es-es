@@ -103,19 +103,15 @@ En este laboratorio, aprenderás a:
 
     ![Captura de pantalla de la adición de conocimiento del sitio web.](../media/add-dataverse-knowedge-step1.png)
 
-1. Selecciona **Siguiente**.
-
-1. Selecciona **Siguiente**.
-
-1. Selecciona **Agregar**.
+1. Seleccione **Agregar**.
 
 ### Tarea 2.2: Agregar conocimientos a partir de archivos
 
 1. Descarga este [**Caso práctico de Microsoft**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) o [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) de GitHub.
 
-1. Selecciona **+ Agregar conocimiento**.
+> ℹ️**NOTA:** el vínculo al caso práctico de Microsoft está aquí: `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
-1. Seleccione **Archivos**.
+1. Selecciona **+ Agregar conocimiento**.
 
 1. En **Cargar archivos**, busca y selecciona el caso práctico que has descargado.
 
@@ -139,7 +135,7 @@ En este laboratorio, aprenderás a:
 
 1. Selecciona el icono **+** del nodo **Condición**, elige **Avanzado** y selecciona **Respuestas generativas**.
 
-1. Selecciona **Activity.Text** en el campo **Entrada**.
+1. Selecciona la pestaña **Sistema** y selecciona **Activity.Text** en el campo **Entrada**.
 
 1. Selecciona **Editar** en **Orígenes de datos**.
 
