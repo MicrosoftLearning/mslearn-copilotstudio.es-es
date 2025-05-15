@@ -87,7 +87,7 @@ En este ejercicio, crearás temas en un agente y agregarás frases desencadenado
 
 1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escribe el texto siguiente:
 
-    `Update the message in this Question node to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. Selecciona **Actualizar**.
 
@@ -105,7 +105,7 @@ Además de agregar y actualizar nodos existentes, puedes usar Copilot para agreg
 
 1. Asegúrese de que no haya ningún nodo seleccionado al hacer clic en el espacio vacío alrededor de los nodos.
 
-1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escriba el texto siguiente:
+1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escribe el texto siguiente:
 
     `Summarize the information collected in an adaptive card`
 
