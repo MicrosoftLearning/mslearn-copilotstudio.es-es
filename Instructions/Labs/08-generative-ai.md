@@ -1,16 +1,18 @@
 ---
 lab:
   title: Uso de la IA generativa en Microsoft Copilot Studio
-  module: Enhance Microsoft Copilot Studio copilots
+  module: Enhance Microsoft Copilot Studio agents
 ---
 
 # Uso de la IA generativa en Microsoft Copilot Studio
 
 ## Escenario
 
-En este laboratorio, aprenderás a:
+En este ejercicio, aprenderás a:
 
-- Crear acciones de agente
+- Usar el conocimiento y la IA generativa en el agente
+
+Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 ## Aprendizaje
 
@@ -45,7 +47,7 @@ En este laboratorio, aprenderás a:
 
 1. Selecciona **Media: más equilibrada** para **¿Cómo de estricta debe ser la moderación de contenido?**.
 
-1. Selecciona **Guardar**.
+1. Seleccione **Guardar**.
 
     ![Panel de IA generativa de la configuración de Copilot Studio](../media/settings-generative-ai-2.png)
 
@@ -163,7 +165,7 @@ En este laboratorio, aprenderás a:
 
     ![Captura de pantalla del mapa de conversación del panel Pruebas.](../media/test-pane-conversation-map.png)
 
-1. Selecciona **Activado**.
+1. Seleccione **Activado**.
 
 1. Selecciona el icono **Iniciar una nueva conversación** en la parte superior del panel de pruebas.
 

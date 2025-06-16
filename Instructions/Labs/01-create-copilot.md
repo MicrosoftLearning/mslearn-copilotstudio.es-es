@@ -1,13 +1,14 @@
 ---
 lab:
   title: Creación de un agente con Copilot Studio
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
 # Creación de un agente con Copilot Studio
 
 En este ejercicio, usarás Copilot Studio para crear un agente sencillo que pueda responder a preguntas de los empleados sobre las directivas de gastos de una empresa ficticia.
 
-Este ejercicio tardará aproximadamente **45** minutos en completarse.
+Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 > **Nota**: este ejercicio presupone que ya tienes una licencia de Copilot Studio o que te has suscrito a una [prueba gratuita](https://go.microsoft.com/fwlink/p/?linkid=2252605).
 
@@ -35,7 +36,7 @@ Comencemos con Copilot Studio para crear un nuevo agente. El agente tendrá inic
 
 1. Selecciona la opción para crear un **Nuevo agente**. Copilot Studio responde al proporcionar una interfaz de chat en la que puedes describir la funcionalidad del agente que deseas compilar.
 
-    >**Sugerencia**: puedes usar la opción **Omitir para configurar** para omitir la experiencia de creación de agentes basada en chat. En este ejercicio, usaremos la interfaz de chat.
+    > **Sugerencia**: puedes usar la opción **Omitir para configurar** para omitir la experiencia de creación de agentes basada en chat. En este ejercicio, usaremos la interfaz de chat.
 
 1. Escriba la siguiente indicación:
 
@@ -114,7 +115,7 @@ Puedes usar *temas* para proporcionar respuestas explícitas a *desencadenadores
     - **Reserva**: este tema es un tema "para notificaciones de error" que responde cuando se desconoce la intención y no se puede generar una respuesta de IA conversacional adecuada. El tema alternativo usa la lógica para permitir que el usuario vuelva a intentarlo hasta tres veces antes de finalizar con gracia la conversación, a menudo dirigiéndolo a un operador humano.
 1. Vuelve a la página **Temas**, y en el menú **+ Agregar un tema**, selecciona **Tema**\>**Crear a partir de la descripción con Copilot**.
 
-1. En el cuadro de diálogo **Crear a partir de la descripción con Copilot**, asigna el nombre `Ask about expenses contact` al nuevo tema y escribe el siguiente texto para indicar a Copilot lo que debe hacer el tema:
+1. En el cuadro de diálogo **Crear a partir de la descripción con Copilot**, asigna el nombre al nuevo tema`Ask about expenses contact` y escribe el siguiente texto para indicar a Copilot Studio lo que debe hacer el tema:
 
     ```prompt
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
@@ -129,6 +130,8 @@ Puedes usar *temas* para proporcionar respuestas explícitas a *desencadenadores
     ![Captura de pantalla del tema generado con Copilot](media/copilot-studio-topic.png)
 
     El nuevo tema debe desencadenarse mediante frases que pregunten sobre un contacto de gastos y respondan con un mensaje que indica al usuario que envíe un correo electrónico a la dirección adecuada.
+
+    > **Importante**: Si los nodos del tema son diferentes de la imagen anterior, elimina el tema y vuelve a crearlo.
 
 1. Usa el botón **Guardar** (arriba a la derecha) para guardar el nuevo tema en tu agente.
 
@@ -154,7 +157,7 @@ Puedes agregar temas para todas las entradas que esperas que escriba un usuario,
 
     ![Captura de pantalla de los orígenes de conocimiento disponibles en Copilot Studio.](media/knowledge-sources.png)
 
-1. En la sección **Cargar archivos**, carga el documento de la directiva de gastos que has descargado anteriormente y agrégalo al conocimiento de tu agente.
+1. En la sección **Cargar archivo**, carga el documento de la directiva de gastos que has descargado anteriormente y agrégalo al conocimiento de tu agente.
 
     > **Nota**: después de cargar el archivo, tendrás que esperar mientras se indexa; lo que puede tardar 10 minutos (o más). Ahora puede ser un buen momento para tomarse un café mientras revisas el documento [Directiva de gastos](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) en `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` en otra pestaña del explorador.
 
@@ -182,7 +185,7 @@ Ahora que tienes un agente de trabajo, puedes publicarlo para que los usuarios l
 
 1. Oculta el panel **Probar el agente**. Después, en la parte superior de la página, selecciona la pestaña **Canales** y revisa los canales en los que puedes implementar tu agente. Los canales disponibles dependen de la configuración de autenticación del agente.
 1. Al principio de la página, seleccione **Configuración**.
-1. En el panel **Configuración**, en la página **Seguridad**, selecciona **Autenticación**. Después selecciona la opción **Sin autenticación** y haz clic en **Guardar** para guardar los cambios en la configuración (lo que confirma que deseas habilitar el acceso al agente a cualquier persona).
+1. En el panel **Configuración**, en la página **Seguridad**, selecciona **Autenticación**. Después selecciona la opción **Sin autenticación** y haz clic en **Guardar** para guardar los cambios en la configuración y vuelve a **Guardar** (lo que confirma que deseas habilitar el acceso al agente a cualquier persona).
 1. Cierra el panel **Configuración**. Después, visualiza la página **Canales**.
 1. En la parte superior de la página, selecciona **Publicar**. Luego, en la página **Publicar**, selecciona **Publicar**. La publicación tardará un minuto más o menos.
 1. Una vez publicado tu agente, comprueba el **Estado de publicación** en la página **Canales**.

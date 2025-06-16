@@ -8,9 +8,11 @@ lab:
 
 ## Escenario
 
-En este laboratorio, aprenderás a:
+En este ejercicio, aprenderás a:
 
-- Crear acciones de agente
+- Implementar un agente en un canal de Microsoft Teams
+
+Este ejercicio tardará aproximadamente **10** minutos en completarse.
 
 ## Aprendizaje
 
@@ -58,10 +60,6 @@ Con tu agente publicado, puedes hacer que tu agente esté disponible para los us
 
 1. Seleccione **Copiar vínculo**.
 
-1. Selecciona **Mostrar a mis compañeros de equipo y usuarios compartidos**.
-
-1. Selecciona tu usuario.
-
 1. Selecciona la flecha hacia atrás de la parte superior izquierda del panel.
 
 1. Selecciona **Ver agente en Teams**
@@ -73,6 +71,10 @@ Con tu agente publicado, puedes hacer que tu agente esté disponible para los us
 1. Selecciona **Agregar**.
 
     ![Captura de pantalla del diálogo para agregar la aplicación a Teams.](../media/teams-add-app.png)
+
+1. En el raíl izquierdo de Microsoft Teams, selecciona los **puntos suspensivos (...)** para ver más aplicaciones y buscar por **Inmobiliaria**.
+
+1. Selecciona **Servicio de reserva inmobiliaria**.
 
 1. Prueba el agente.
 

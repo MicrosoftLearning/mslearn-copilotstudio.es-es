@@ -8,9 +8,11 @@ lab:
 
 ## Escenario
 
-En este laboratorio, aprenderás a:
+En este ejercicio, aprenderás a:
 
 - Creación y uso de entidades
+
+Este ejercicio tardará aproximadamente **15** minutos en completarse.
 
 ## Aprendizaje
 
@@ -68,6 +70,8 @@ Microsoft Copilot Studio usa entidades para comprender la intención del usuario
 1. Selecciona **+ Sinónimos** para **Condominio**, escribe **`Townhouse`**, selecciona el icono **+** y selecciona **Listo**.
 
 1. Selecciona **+ Sinónimos** para **Casa**, escribe **`Single-family home`**, selecciona el icono **+** y selecciona **Listo**.
+
+1. Habilitar **Coincidencia inteligente**
 
     ![Captura de pantalla de la nueva entidad.](../media/add-list-entity.png)
 

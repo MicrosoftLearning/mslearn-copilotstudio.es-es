@@ -1,14 +1,16 @@
 ---
 lab:
   title: Importación de una solución de Dataverse
-  module: Course Introduction
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
 # Importación de una solución de Dataverse
 
-En este ejercicio, importarás una solución de Dataverse que se usará para los siguientes laboratorios.
+En este ejercicio, importarás una solución de Dataverse que se usará en los siguientes laboratorios.
 
-> **Nota**: en este ejercicio se supone que ya tienes una licencia de Copilot Studio o que te has registrado para obtener una [evaluación gratuita](https://go.microsoft.com/fwlink/p/?linkid=2252605) y tener un entorno de Power Apps en el que trabajar.
+Este ejercicio tardará aproximadamente **10** minutos en completarse.
+
+> **Nota**: En este ejercicio se supone que ya tienes una licencia de Copilot Studio o que te has registrado para obtener una [evaluación gratuita](https://go.microsoft.com/fwlink/p/?linkid=2252605) y tener un entorno de Power Platform en el que trabajar.
 
 ## Ejercicio 1: Importar una solución
 
