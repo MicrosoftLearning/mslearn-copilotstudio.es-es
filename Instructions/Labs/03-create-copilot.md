@@ -1,18 +1,20 @@
 ---
 lab:
   title: Desarrollo de un agente inicial
-  module: Build an initial agent with Microsoft Copilot Studio
+  module: Manage topics in Microsoft Copilot Studio
 ---
 
 # Desarrollo de un agente inicial
 
 ## Escenario
 
-En este laboratorio, aprenderás a:
+En este ejercicio, aprenderás a:
 
 - Crear y asignar un nombre a un agente
 - Agregar una descripción de lo que el agente debe hacer
 - Configurar respuestas de IA generativa
+
+Este ejercicio tardará aproximadamente **15** minutos en completarse.
 
 ## Aprendizaje
 
@@ -61,7 +63,7 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
 1. Selecciona **Reservas** en **Solución**.
 
-1. Escribe `labcopilot` en **Nombre del esquema**.
+1. Escribe `labagent` en **Nombre del esquema**.
 
     ![Configuración avanzada del portal de Copilot Studio.](../media/copilot-studio-advanced-settings.png)
 
@@ -77,13 +79,19 @@ Deja abierta esta ventana.
 
 En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás conocimiento que el agente usará para responder preguntas mediante IA generativa.
 
-### Tarea 2.1: Habilitar respuestas de IA generativa
+### Tarea 2.1: Deshabilitar la orquestación generativa
+
+1. En la pestaña **Información general**, asegúrate de **Usar la IA generativa para determinar cómo responder mejor a los usuarios y eventos.** se establece en **Deshabilitado** en la sección **Detalles**.
+
+    ![Orquestación generativa deshabilitada](../media/settings-generative-ai-1.png)
+
+### Tarea 2.2: Habilitar respuestas de IA generativa
 
 1. En la pestaña **Información general**, asegúrate de que **Permitir que la IA use sus propios conocimientos generales** esté establecido en **Habilitado** en la sección **Conocimiento**.
 
     ![Conocimiento habilitado en el portal de Copilot Studio.](../media/knowledge-enabled.png)
 
-### Tarea 2.2: Agregar un origen de conocimiento
+### Tarea 2.3: Agregar un origen de conocimiento
 
 1. Selecciona la pestaña **Conocimiento**.
 

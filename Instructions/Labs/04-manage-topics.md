@@ -8,11 +8,13 @@ lab:
 
 ## Escenario
 
-En este laboratorio, aprenderás a:
+En este ejercicio, aprenderás a:
 
 - Administrar los tokens existentes
 - Crear y editar temas mediante lenguaje natural
 - Crear un tema manualmente mediante frases desencadenadoras
+
+Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 ## Aprendizaje
 
@@ -20,7 +22,6 @@ En este laboratorio, aprenderás a:
 
 ## Pasos de alto nivel del laboratorio
 
-- Eliminar los temas de ejemplo
 - Deshabilitar temas
 - Crear y editar temas nuevos con lenguaje natural
 - Crear un nuevo tema y agregar frases desencadenadoras
@@ -87,7 +88,7 @@ En este ejercicio, crearás temas en un agente y agregarás frases desencadenado
 
 1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escribe el texto siguiente:
 
-    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Change "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. Selecciona **Actualizar**.
 
@@ -95,7 +96,7 @@ En este ejercicio, crearás temas en un agente y agregarás frases desencadenado
 
     ![Captura de pantalla del mensaje actualizada para incluir la variable Nombre.](../media/message-updated-name-variable.png)
 
-    > **Nota**: el mensaje debe actualizarse para incluir la variable *Nombre* del nodo anterior, y debe ser similar a la captura de pantalla anterior.
+    > **Nota**: el mensaje debe actualizarse para incluir la variable *Nombre* del nodo anterior, y debe ser similar a la captura de pantalla anterior. Si Editar con Copilot no actualizó correctamente el nodo de pregunta, selecciona Deshacer y vuelve a intentarlo con una solicitud diferente.
 
 1. Seleccione **Guardar**.
 

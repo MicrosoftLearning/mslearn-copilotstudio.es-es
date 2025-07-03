@@ -8,9 +8,12 @@ lab:
 
 ## Escenario
 
-En este laboratorio, aprenderás a:
+En este ejercicio, aprenderás a:
 
 - Crear el flujo conversacional
+- Administración de variables
+
+Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 ## Aprendizaje
 
@@ -20,6 +23,7 @@ En este laboratorio, aprenderás a:
 
 - Configuración del ámbito de las variables
 - Creación y edición de nodos
+- Implementación y prueba del agente
   
 ## Requisitos previos
 

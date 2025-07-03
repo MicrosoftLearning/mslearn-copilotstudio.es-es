@@ -1,16 +1,18 @@
 ---
 lab:
   title: Crear acciones de agente
-  module: Enhance Microsoft Copilot Studio copilots
+  module: Enhance Microsoft Copilot Studio agents
 ---
 
-# Creación de acciones de Copilot
+# Crear acciones de agente
 
 ## Escenario
 
-En este laboratorio, aprenderás a:
+En este ejercicio, aprenderás a:
 
-- Crear acciones de agente
+- Crear acciones de agente mediante un flujo de nube de Power Automate
+
+Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 ## Aprendizaje
 
@@ -82,6 +84,8 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 1. Con el campo **Filtrar filas** aún seleccionado, selecciona el icono de **rayo** a su derecha y, a continuación, selecciona el parámetro **Bedrooms**.
 
     ![Captura de pantalla de la configuración de la acción listar filas.](../media/create-flow-step4.png)
+
+    > **Importante:** Asegúrate de que hay un espacio entre eq y Bedrooms.
 
 1. En el panel principal de Power Automate, selecciona la acción **Responder a Copilot** y selecciona **+ Agregar una salida**.
 
@@ -219,7 +223,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona **Solicitudes de reserva** para el nombre de tabla.
 
-1. Escribe `Copilot booking` en el campo **Nombre de reserva**.
+1. Escribe `Agent booking` en el campo **Nombre de reserva**.
 
 1. Selecciona **Mostrar todo** en **Parámetros avanzados**.
 
@@ -310,8 +314,7 @@ Microsoft Copilot Studio puede crear datos en Microsoft Dataverse mediante flujo
 
 1. Selecciona cualquier clasificación.
 
-1. Selecciona **No** en el mensaje **¿Puedo ayudar con cualquier otra cosa?**.
-    >[!Note] Es posible que no se genere ninguna respuesta.
+1. Escribe **No** para el mensaje **¿Puedo ayudar con cualquier otra cosa?**.
 
 ### Tarea 3.2: Comprobar la solicitud de reserva
 
