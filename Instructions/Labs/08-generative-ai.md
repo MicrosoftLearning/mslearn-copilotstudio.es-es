@@ -31,7 +31,7 @@ Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 ## Ejercicio 1: Configuración de IA generativa
 
-### Tarea 1.1: Habilitar la IA generativa
+### Tarea 1.1: Habilitar orquestación
 
 1. Si aún no está abierto, ve al portal de Microsoft Copilot Studio `https://copilotstudio.microsoft.com` y asegúrate de que estás en el entorno adecuado.
 
@@ -41,17 +41,7 @@ Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 1. Selecciona el botón **Configuración** en la parte superior derecha de la pantalla.
 
-1. Selecciona la pestaña **AI generativa**.
-
-1. Selecciona **Generativo** en **¿Cómo debe interactuar tu agente con la gente?**.
-
-1. Selecciona **Media: más equilibrada** para **¿Cómo de estricta debe ser la moderación de contenido?**.
-
-1. Seleccione **Guardar**.
-
-    ![Panel de IA generativa de la configuración de Copilot Studio](../media/settings-generative-ai-2.png)
-
-1. Cierra el menú **Configuración** al seleccionar el icono **X** en la parte superior derecha de Copilot Studio.
+1. En la sección **Detalles**, cambie Orquestación a **Habilitada**.
 
 ### Tarea 1.2: Usar respuestas generativas en el tema de refuerzo conversacional
 
@@ -63,19 +53,9 @@ Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 1. Revisa el nodo **Creación de respuestas generativas**.
 
-### Tarea 1.3: Habilitar el conocimiento
+### Tarea 1.3: Configurar la autenticación
 
-1. Selecciona la pestaña **Información general**.
-
-1. Comprueba que el conocimiento general está **habilitado**.
-
-    ![Captura de pantalla del conocimiento general habilitado.](../media/general-knowledge-2.png)
-
-1. Deberías ver que el sitio web público se ha agregado como conocimiento en un laboratorio anterior.
-
-### Tarea 1.4: Configurar la autenticación
-
-1. Selecciona **Configuración** en la parte superior derecha de la pantalla.
+1. Seleccione los puntos suspensivos (**...**) > **Configuración** en la esquina superior derecha de la pantalla.
 
 1. Selecciona la pestaña **Seguridad**.
 
@@ -149,11 +129,9 @@ Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 1. Anula la selección de **Permitir que la IA use su propio conocimiento general**.
 
-1. Activa la casilla **Personalizar** en **¿Cómo de estricta debe ser la moderación de contenido?** y después selecciona **Media**.
+1. Active la casilla **Personalizar** en **Nivel de moderación de contenido** y seleccione **Medio**.
 
-    ![Captura de pantalla de la configuración de las respuestas generativas.](../media/fallback-topic-answers-knowledge-2.png)
-
-1. Selecciona **Guardar**.
+1. Seleccione **Guardar**.
 
 ## Ejercicio 4: Prueba de IA generativa
 
