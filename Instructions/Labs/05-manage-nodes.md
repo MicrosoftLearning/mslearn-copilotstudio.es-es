@@ -37,9 +37,7 @@ Otros temas pueden acceder a las variables.
 
 ### Tarea 1.1: Configurar el ámbito de las variables
 
-1. Ve al portal de Microsoft Studio `https://copilotstudio.microsoft.com` y asegúrate de que estás en el entorno adecuado.
-
-1. Selecciona el botón **Probar** en la parte superior derecha de la pantalla para cerrar el panel de pruebas si el panel está abierto.
+1. Ve al portal `https://copilotstudio.microsoft.com` de Copilot Studio y asegúrate de que estás en el entorno adecuado.
 
 1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
@@ -79,7 +77,7 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
 ### Tarea 2.2: Agregar un nodo de administración de temas
 
-1. Selecciona el icono **+** del nodo **Mensaje**, **Administración de temas**, después **Ir a otro tema** y luego selecciona **Detalles del cliente**.
+1. Seleccione el icono **+** situado debajo del nodo **Mensaje** y, a continuación, seleccione **Administración de temas** > **Ir a otro tema** > **Detalles del cliente**.
 
     ![Captura de pantalla de la adición de un nodo de administración de temas.](../media/topic-management-node.png)
 
@@ -137,7 +135,7 @@ El flujo conversacional de un tema se puede crear manualmente al agregar nodos.
 
     ![Captura de pantalla de las opciones del panel Pruebas.](../media/test-pane-options.png)
 
-1. Selecciona el icono **Iniciar una nueva conversación** en la parte superior del panel de pruebas.
+1. Seleccione el icono **Iniciar una nueva conversación** (actualizar) en la parte superior del panel de pruebas.
 
 1. Cuando aparezca el mensaje **Inicio de conversación**, el agente iniciará una conversación. Como respuesta, introduce una frase desencadenadora para el tema que has creado:
 

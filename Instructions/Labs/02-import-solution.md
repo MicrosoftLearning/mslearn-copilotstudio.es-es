@@ -16,7 +16,15 @@ Este ejercicio tardará aproximadamente **10** minutos en completarse.
 
 En este ejercicio, importarás una solución de Dataverse en tu entorno que contiene las tablas necesarias para los laboratorios.
 
-### Tarea 1.1: Inicio de sesión en Power Apps
+### Tarea 1.1: Descarga de la solución
+
+1. En una nueva pestaña de navegador, navegue hasta el archivo **Bookings_1_0_0.zip** en GitHub en `https://github.com/MicrosoftLearning/mslearn-copilotstudio/blob/main/Allfiles/Bookings_1_0_0_0.zip`
+
+1. Selecciona los **puntos suspensivos (...)** cerca de la parte superior derecha y selecciona **Descargar**.
+
+1. Cierre la pestaña del navegador.
+
+### Tarea 1.2: Importación de la solución
 
 1. En una pestaña nueva del explorador, ve a `https://make.powerapps.com`.
 
@@ -26,23 +34,11 @@ En este ejercicio, importarás una solución de Dataverse en tu entorno que cont
 
 1. En la parte superior derecha de la pantalla, comprueba que el **Entorno** está establecido en tu entorno. Aquí es donde trabajarás para la totalidad de los laboratorios. Si no es así, selecciona el entorno adecuado.
 
-### Tarea 1.2: Descarga de la solución
-
-1. Ve a [**Bookings_1_0_0_0.zip**](../../Allfiles/Bookings_1_0_0_0.zip) en GitHub. El archivo se encuentra en `https://github.com/MicrosoftLearning/mslearn-copilotstudio/blob/main/Allfiles/Bookings_1_0_0_0.zip`.
-
-1. Selecciona los **puntos suspensivos (...)** cerca de la parte superior derecha y selecciona **Descargar**.
-
-### Tarea 1.3: Importación de la solución
-
-1. Ir a `https://make.powerapps.com`.
-
-1. Asegúrate de que estás en el entorno adecuado.
-
 1. En el panel de navegación izquierdo, seleccione **Soluciones**.
 
 1. En la barra de herramientas situada en la parte superior, selecciona **Importar solución**.
 
-1. Selecciona **Examinar**, busca el archivo **Bookings_1_0_0_0.zip** y selecciona **Abrir**.
+1. Seleccione **Navegar** y localice el archivo **Bookings_1_0_0.zip** de su carpeta Descargas y seleccione **Abrir**.
 
     ![Solución para importar.](../media/solution-to-import.png)
 
@@ -64,7 +60,7 @@ En este ejercicio, importarás una solución de Dataverse en tu entorno que cont
 
 1. Seleccione **Publicar todas las personalizaciones**.
 
-### Tarea 1.4: Prueba de datos
+### Tarea 1.3: Prueba de datos
 
 1. En el panel de navegación izquierdo de la solución Bookings, selecciona la pestaña **Objetos**.
 
@@ -103,3 +99,5 @@ En este ejercicio, importarás una solución de Dataverse en tu entorno que cont
     ![Información general.](../media/add-record2.png)
 
 1. Selecciona **Guardar y cerrar.**
+
+Ahora tiene 2 propiedades inmobiliarias activas en la vista. 

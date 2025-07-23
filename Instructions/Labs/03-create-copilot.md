@@ -39,8 +39,6 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
 1. En una nueva pestaña, ve al portal de Microsoft Copilot Studio `https://copilotstudio.microsoft.com` e inicia sesión con tus credenciales de Microsoft 365 si se te solicita de nuevo.
 
-1. Si se te solicita, selecciona **Iniciar prueba gratuita**.
-
 1. Asegúrate de que estás en el entorno adecuado.
 
 ### Tarea 1.2: Crear un agente
@@ -71,7 +69,7 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio, el entorno 
 
 1. En la parte superior derecha de la pantalla, selecciona **Crear**.
 
-1. En el panel derecho **Prueba tu agente**, escribe **`How do I make a booking?`**. Visualiza la respuesta.
+1. En el panel derecho **Prueba tu agente**, introduzca **`How do I make a booking?`** y visualice la respuesta.
 
 Deja abierta esta ventana.
 
@@ -81,17 +79,11 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás
 
 ### Tarea 2.1: Deshabilitar la orquestación generativa
 
-1. En la pestaña **Información general**, asegúrate de **Usar la IA generativa para determinar cómo responder mejor a los usuarios y eventos.** se establece en **Deshabilitado** en la sección **Detalles**.
+1. En la pestaña **Información general**, asegúrate de **Usar la IA generativa para determinar cómo responder mejor a los usuarios y eventos.** se establece en **Deshabilitado** en la sección **Detalles**. Esto desactiva la orquestación para el propósito de este laboratorio.
 
     ![Orquestación generativa deshabilitada](../media/settings-generative-ai-1.png)
 
-### Tarea 2.2: Habilitar respuestas de IA generativa
-
-1. En la pestaña **Información general**, asegúrate de que **Permitir que la IA use sus propios conocimientos generales** esté establecido en **Habilitado** en la sección **Conocimiento**.
-
-    ![Conocimiento habilitado en el portal de Copilot Studio.](../media/knowledge-enabled.png)
-
-### Tarea 2.3: Agregar un origen de conocimiento
+### Tarea 2.2: Agregar un origen de conocimiento
 
 1. Selecciona la pestaña **Conocimiento**.
 
@@ -121,6 +113,6 @@ En este ejercicio, accederás al portal de Microsoft Copilot Studio y agregarás
 
     ![Captura de pantalla de las opciones del panel Pruebas.](../media/copilot-test-pane-start-new-conversation.png)
 
-1. En el cuadro de texto **Formular preguntas o describir lo que necesita**, escribe **`How do I boost real estate promotion?`**.
+1. En el cuadro de texto **Formular preguntas o describir lo que necesita**, escribe **`How do I boost real estate promotion?`**. Vea su respuesta. 
 
     ![Captura de pantalla de los resultados del panel Pruebas.](../media/test-pane-results.png)

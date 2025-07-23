@@ -40,8 +40,6 @@ En este ejercicio, quitarás los temas de un agente.
 
 1. Ve al portal `https://copilotstudio.microsoft.com` de Microsoft Copilot Studio y asegúrate de que estás en el entorno adecuado.
 
-1. Selecciona el botón **Probar** en la parte superior derecha de la pantalla para cerrar el panel de pruebas si el panel está abierto.
-
 1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
     ![Agentes en el portal de Copilot Studio.](../media/copilot-studio-copilots.png)
@@ -49,8 +47,6 @@ En este ejercicio, quitarás los temas de un agente.
 1. Selecciona el agente que has creado en el laboratorio anterior.
 
 1. Selecciona la pestaña **Temas**.
-
-    ![Pestaña Temas en el portal de Copilot Studio.](../media/topics-tab.png)
 
 1. Alterna de **Habilitado** a **Apagado** en el tema **Volver a empezar**.
 
@@ -82,7 +78,7 @@ En este ejercicio, crearás temas en un agente y agregarás frases desencadenado
 
     ![Captura de pantalla del icono Editar con Copilot.](../media/edit-with-copilot.png)
 
-1. Selecciona el segundo nodo **Pregunta**, **¿Cuál es su dirección de correo electrónico?**
+1. Seleccione el segundo nodo **Pregunta** **¿Cuál es su dirección de correo electrónico?**
 
     ![Captura de pantalla del icono Editar con Copilot.](../media/copilot-email-address-node.png)
 
@@ -104,7 +100,7 @@ En este ejercicio, crearás temas en un agente y agregarás frases desencadenado
 
 Además de agregar y actualizar nodos existentes, puedes usar Copilot para agregar otros nuevos.
 
-1. Asegúrese de que no haya ningún nodo seleccionado al hacer clic en el espacio vacío alrededor de los nodos.
+1. Asegúrese de que no hay ningún nodo seleccionado seleccionando el espacio vacío en el lienzo de creación.
 
 1. En el panel **Editar con Copilot**, en el campo **¿Qué desea hacer?**, escribe el texto siguiente:
 
@@ -155,9 +151,9 @@ Además de agregar y actualizar nodos existentes, puedes usar Copilot para agreg
     }
     ```
 
-1. Al abrir las propiedades de la tarjeta adaptable se cierra el panel **Editar con Copilot**; por lo tanto, debes seleccionar el icono **Copilot** para volver a abrirlo.
+1. Seleccione el icono **Copilot** para volver a abrir el panel **Editar con Copilot**.
 
-1. Asegúrese de que no haya ningún nodo seleccionado al hacer clic en el espacio vacío alrededor de los nodos.
+1. Asegúrese de que no hay ningún nodo seleccionado seleccionando el espacio vacío en el lienzo de creación.
 
 1. En el campo **¿Qué desea hacer?**, escriba el texto siguiente:
 
@@ -165,17 +161,17 @@ Además de agregar y actualizar nodos existentes, puedes usar Copilot para agreg
 
 1. Seleccione **Actualizar**.
 
-1. Se agrega un nuevo nodo de pregunta al final del tema con opciones para que el usuario las seleccione.
+Se agrega un nuevo nodo de pregunta al final del tema con opciones para que el usuario las seleccione.
 
-    ![Captura de pantalla del nuevo nodo de preguntas con opciones de sí y no.](../media/new-question-node.png)
+    ![Screenshot of the new question node with yes and no options.](../media/new-question-node.png)
 
 1. Seleccione **Guardar**.
 
 ### Tarea 2.4: Probar el tema
 
-1. Selecciona el botón **Probar** en la parte superior derecha de la pantalla para abrir el panel de pruebas, si está cerrado.
+1. Si el panel **Probar su agente** está cerrado, seleccione el botón **Probar** situado en la parte superior derecha de la pantalla.
 
-1. Selecciona el icono **Iniciar una nueva conversación** en la parte superior del panel de pruebas.
+1. Seleccione el icono **Iniciar una nueva conversación** (actualizar) en la parte superior del panel de pruebas.
 
 1. En el cuadro de texto **Formular preguntas o describir lo que necesita**, escribe **`Customer information`**.
 
@@ -213,7 +209,7 @@ Los temas se pueden crear manualmente agregando frases desencadenadoras.
 
 ### Tarea 3.2: Agregar frases desencadenadoras
 
-1. Selecciona **Editar** en **Frases** del **desencadenador**.
+1. Seleccione **Editar** en **El usuario dice una frase** en el **Desencadenador**.
 
     ![Captura de pantalla del panel de frases desencadendoras de temas.](../media/topic-trigger-phrases.png)
 
