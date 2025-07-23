@@ -39,7 +39,7 @@ Microsoft Copilot Studio usa entidades para comprender la intención del usuario
 
 1. Selecciona **Agentes** en el panel de navegación de la izquierda.
 
-1. Selecciona el **servicio de reserva inmobiliaria** que creaste en el laboratorio anterior.
+1. Seleccione el agente **Servicio de reservas inmobiliarias** que creó en el laboratorio anterior.
 
 1. Selecciona **Configuración** en la parte superior derecha de la pantalla.
 
@@ -91,15 +91,15 @@ Microsoft Copilot Studio usa entidades para comprender la intención del usuario
 
 1. Selecciona **Guardar**.
 
-1. Selecciona **Cerrar**.
+1. Seleccione **Cerrar**.
+
+1. Selecciona el icono **X** de la parte superior derecha para cerrar la Configuración y volver a tu agente.
 
 ## Ejercicio 2: Uso de entidades para mejorar el agente
 
 Usa entidades en el flujo conversacional para mejorar el agente.
 
 ### Tarea 2.1: Usar entidades
-
-1. Selecciona el icono **X** de la parte superior derecha para cerrar la Configuración y volver a tu agente.
 
 1. Selecciona la pestaña **Temas**.
 

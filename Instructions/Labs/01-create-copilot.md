@@ -113,13 +113,14 @@ Puedes usar *temas* para proporcionar respuestas explícitas a *desencadenadores
 1. Vuelve a la página **Temas** y consulta los temas del **sistema**. Ten en cuenta que estos incluyen temas para eventos comunes en una conversación. En especial, ten en cuenta los siguientes temas del sistema:
     - **Refuerzo conversacional**: este tema se activa cuando el usuario envía un mensaje del el que el agente no puede identificar un tema correspondiente (se desconoce la *intención* del usuario). Entonces, el tema intenta responder al mensaje del usuario mediante IA generativa.
     - **Reserva**: este tema es un tema "para notificaciones de error" que responde cuando se desconoce la intención y no se puede generar una respuesta de IA conversacional adecuada. El tema alternativo usa la lógica para permitir que el usuario vuelva a intentarlo hasta tres veces antes de finalizar con gracia la conversación, a menudo dirigiéndolo a un operador humano.
-1. Vuelve a la página **Temas**, y en el menú **+ Agregar un tema**, selecciona **Tema**\>**Crear a partir de la descripción con Copilot**.
+1. Vuelva a la página **Temas** y, en el menú **+Agregar un tema**, seleccione **Tema** \>. \> **Agregar desde descripción con Copilot**.
 
-1. En el cuadro de diálogo **Crear a partir de la descripción con Copilot**, asigna el nombre al nuevo tema`Ask about expenses contact` y escribe el siguiente texto para indicar a Copilot Studio lo que debe hacer el tema:
+1. En el cuadro de diálogo **Agregar desde descripción con Copilot**, asigne un nombre al nuevo tema `Ask about expenses contact` e introduzca el siguiente texto para indicar a Copilot Studio lo que debe hacer el tema:
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
     ```
+    > **Nota**: Los resultados de Copilot pueden variar, por lo que es posible que tenga que jugar con esta indicación para obtener los resultados esperados. 
 
 1. Seleccione **Crear**.
 

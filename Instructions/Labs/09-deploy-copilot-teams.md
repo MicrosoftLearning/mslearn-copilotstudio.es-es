@@ -58,23 +58,17 @@ Con tu agente publicado, puedes hacer que tu agente esté disponible para los us
 
     ![Captura de pantalla de las opciones de disponibilidad del canal de Teams.](../media/teams-availability-options.png)
 
-1. Seleccione **Copiar vínculo**.
-
-1. Selecciona la flecha hacia atrás de la parte superior izquierda del panel.
-
 1. Selecciona **Ver agente en Teams**
 
 1. Selecciona **Cancelar** en el cuadro de diálogo de **Este sitio está intentando abrir Microsoft Teams**.
 
-1. Selecciona **Usar la aplicación web en su lugar**.
+1. En el menú emergente, seleccione **Cancelar** y seleccione **Usar la aplicación web en su lugar**.
 
-1. Selecciona **Agregar**.
+1. Seleccione **Agregar** para agregar el agente a Teams.
 
     ![Captura de pantalla del diálogo para agregar la aplicación a Teams.](../media/teams-add-app.png)
 
-1. En el raíl izquierdo de Microsoft Teams, selecciona los **puntos suspensivos (...)** para ver más aplicaciones y buscar por **Inmobiliaria**.
-
-1. Selecciona **Servicio de reserva inmobiliaria**.
+1. seleccionar **Abrir**. Quiero 
 
 1. Prueba el agente.
 
