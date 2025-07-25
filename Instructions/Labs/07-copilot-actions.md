@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Crear acciones de agente
+  title: Creación de flujos de agente
   module: Enhance Microsoft Copilot Studio agents
 ---
 
@@ -20,8 +20,8 @@ Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 ## Pasos de alto nivel del laboratorio
 
-- Creación de un flujo de agente para recuperar datos de Dataverse con una acción de agente
-- Creación de un flujo de agente para crear datos de Dataverse con una acción de agente
+- Creación de un flujo de agente para recuperar datos de Dataverse
+- Creación de un flujo de agente para crear datos de Dataverse
   
 ## Requisitos previos
 
@@ -29,7 +29,7 @@ Este ejercicio tardará aproximadamente **30** minutos en completarse.
 
 ## Pasos detallados
 
-## Ejercicio 1: Creación de una acción del agente para recuperar datos de Dataverse
+## Ejercicio 1: Creación de una herramienta para recuperar datos de Dataverse
 
 Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse mediante flujos de agente.
 
@@ -139,7 +139,7 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 1. Seleccione **Herramientas** y vea el flujo Obtener propiedad que ha creado.
 
 
-### Tarea 1.2: Agregar la acción Obtener agente de propiedad al tema
+### Tarea 1.2: Adición de la herramienta Obtener agente de propiedad al tema
 
 1. Selecciona la pestaña **Temas**.
 
@@ -161,9 +161,9 @@ Microsoft Copilot Studio puede acceder a los datos de Microsoft Dataverse median
 
     ![Captura de pantalla del paso 4 de agregar una acción de flujo.](../media/add-action-flow-step-4.png)
 
-1. Selecciona **Guardar**.
+1. Seleccione **Guardar**.
 
-## Ejercicio 2: Creación de una acción del agente para crear datos en Dataverse
+## Ejercicio 2: Creación de una herramienta para crear datos en Dataverse
 
 Microsoft Copilot Studio puede crear los datos de Microsoft Dataverse mediante flujos de agente.
 
@@ -251,7 +251,7 @@ Microsoft Copilot Studio puede crear los datos de Microsoft Dataverse mediante f
 
 1. Seleccione la pestaña **Herramientas** y compruebe que ambos flujos de agente están en la lista. Si no es así, seleccione **+Agregar una herramienta** > **Flujo** > y seleccione el flujo del agente que falta. Seleccione **Agregar al agente**.
 
-### Tarea 2.3: Agregar la acción del agente Crear solicitud de reserva al tema
+### Tarea 2.3: Adición de la herramienta Crear solicitud de reserva al tema
 
 1. Selecciona la pestaña **Temas**.
 
@@ -271,7 +271,7 @@ Microsoft Copilot Studio puede crear los datos de Microsoft Dataverse mediante f
 
 1. Selecciona **Publicar** y vuelve a seleccionar **Publicar**.
 
-## Ejercicio 3: Prueba de las acciones del agente
+## Ejercicio 3: Prueba del agente
 
 ### Tarea 3.1: Realizar una solicitud de reserva
 
