@@ -68,7 +68,7 @@ Con tu agente publicado, puedes hacer que tu agente esté disponible para los us
 
     ![Captura de pantalla del diálogo para agregar la aplicación a Teams.](../media/teams-add-app.png)
 
-1. seleccionar **Abrir**. Quiero 
+1. Seleccione **Open** (Abrir).
 
 1. Prueba el agente.
 
