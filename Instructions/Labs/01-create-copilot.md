@@ -118,7 +118,7 @@ Puedes usar *temas* para proporcionar respuestas explícitas a *desencadenadores
 1. En el cuadro de diálogo **Agregar desde descripción con Copilot**, asigne un nombre al nuevo tema `Ask about expenses contact` e introduzca el siguiente texto para indicar a Copilot Studio lo que debe hacer el tema:
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
     ```
     > **Nota**: Los resultados de Copilot pueden variar, por lo que es posible que tenga que jugar con esta indicación para obtener los resultados esperados. 
 
