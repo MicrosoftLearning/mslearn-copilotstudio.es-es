@@ -191,7 +191,7 @@ Microsoft Copilot Studio puede crear los datos de Microsoft Dataverse mediante f
 
 1. Selecciona **Texto**.
 
-1. Escribe `PropertyId` en **Entrada** y `Property` para **Escriba su entrada**.
+1. Escribe `PropertyId` para **Entrada** y `Property` en **Escriba su entrada**.
 
 1. Selecciona **+ Agregar una entrada**.
 

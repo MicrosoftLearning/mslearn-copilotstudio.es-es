@@ -11,7 +11,7 @@ lab:
 En este ejercicio, aprenderás a:
 
 - Crear y asignar un nombre a un agente
-- Agregar una descripción de lo que el agente debe hacer
+- Agregará una descripción de lo que debe hacer el agente
 - Configurar respuestas de IA generativa
 
 Este ejercicio tardará aproximadamente **15** minutos en completarse.
