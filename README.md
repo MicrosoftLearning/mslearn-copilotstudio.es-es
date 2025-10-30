@@ -1,4 +1,4 @@
-**⚠️ This GitHub repo will retire on 31st October 2025.**
+**⚠️ This GitHub repo will retire on 30th December 2025.**
 
 # Ejercicios de Copilot Studio
 
